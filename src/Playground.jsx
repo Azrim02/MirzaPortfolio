@@ -1,0 +1,12 @@
+import React from 'react';
+import './App.css'
+
+function Playground() {
+  return (
+    <div className="Playground">
+      <h1>Hello World!</h1>
+    </div>
+  );
+}
+
+export default Playground;
