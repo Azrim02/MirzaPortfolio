@@ -1,11 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './styles/index.css'
-import App from './App.jsx'
-import Playground from './pages/Playground.jsx'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './styles/colors.scss'
+import Home from './pages/Home.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Playground />
+    <Home />
   </StrictMode>,
 )
