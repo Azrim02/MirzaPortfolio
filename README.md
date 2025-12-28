@@ -10,5 +10,6 @@ This website portfolio is dedicated to showcase my skills and projects. Will fea
 - Business ideas?
 
 ## Tech stack used
-- React.js (HTML, JSX, CSS) web framework
-- Possibly more in the future
+- react.js (HTML, JSX, CSS) web framework
+- react-bootstrap, not reinventing the wheel
+- scss, a css preprocessors & extensions
