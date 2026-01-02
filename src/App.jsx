@@ -5,7 +5,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='MirzaPortfolio'>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
