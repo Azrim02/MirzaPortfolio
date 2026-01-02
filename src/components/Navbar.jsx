@@ -1,4 +1,5 @@
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import '../styles/navbar.scss';
 import logo from '../assets/logo.png';
 
@@ -7,7 +8,7 @@ function NavBar() {
     <div>
       <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand href="./pages/Home.jsx">
+          <Navbar.Brand as={Link} to="/">
             <img
               alt="logo"
               src={logo}
@@ -20,31 +21,27 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
             <Nav className="ms-auto">
-              <Nav.Link href="./pages/Home.jsx" active>Home</Nav.Link>
-              <Nav.Link href="./pages/Contact.jsx">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/">Home</Nav.Link>
+              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
               <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item as={Link} to="/projects/a">
                   Project A
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as={Link} to="/projects/b">
                   Project B
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item as={Link} to="/projects/c">
                   Project C
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
                 </NavDropdown.Item>
               </NavDropdown>
               <NavDropdown title="Skills & Learning" id="basic-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">
+                <NavDropdown.Item as={Link} to="/skills/a">
                   Skill A
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
+                <NavDropdown.Item as={Link} to="/skills/b">
                   Skill B
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
+                <NavDropdown.Item as={Link} to="/skills/c">
                   Skill C
                 </NavDropdown.Item>
               </NavDropdown>
