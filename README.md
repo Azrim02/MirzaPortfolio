@@ -13,3 +13,4 @@ This website portfolio is dedicated to showcase my skills and projects. Will fea
 - react.js (HTML, JSX, CSS) web framework
 - react-bootstrap, not reinventing the wheel
 - scss, a css preprocessors & extensions
+- react-router-dom router library
