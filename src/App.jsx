@@ -10,8 +10,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />z
-        <Route path="/entries" element={<Home />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/entries" element={<Entries />} />
       </Routes>
     </BrowserRouter>
   );
