@@ -1,6 +1,6 @@
 export default function Entries() {
   return (
-    <div className="Home">
+    <div className="Entries">
       <h1>Entries</h1>
     </div>
   );
