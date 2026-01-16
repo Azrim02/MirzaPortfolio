@@ -9,13 +9,13 @@ function NavBar() {
       <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
           <Navbar.Brand as={Link} to="/">
-            <img
+            {/* <img
               alt="logo"
               src={logo}
               width="40"
               height="40"
               className="d-inline-block align-top"
-            />{' '}
+            />{' '} */}
             Mirza Shariman
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
