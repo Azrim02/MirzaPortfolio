@@ -4,6 +4,26 @@ import ReactMarkdown from 'react-markdown';
 import '../styles/entry-detail.scss';
 import { parseDateFromFrontmatter } from '../utils/dateParser';
 
+// Import all attachment images dynamically
+const attachmentModules = import.meta.glob('../entries/attachments/**/*', { eager: true, as: 'url' });
+
+// Create a map of filenames to their URLs
+const attachmentMap = Object.entries(attachmentModules).reduce((acc, [path, url]) => {
+  const filename = path.split('/').pop();
+  acc[filename] = url;
+  return acc;
+}, {});
+
+// Custom image component for responsive images
+function CustomImage({ src, alt }) {
+  return (
+    <img 
+      src={src} 
+      alt={alt}
+    />
+  );
+}
+
 function parseMarkdown(content) {
   const lines = content.split('\n');
   let frontmatter = {};
@@ -45,7 +65,13 @@ function parseMarkdown(content) {
   }
 
   // Get content after frontmatter
-  const markdownContent = lines.slice(contentStart).join('\n');
+  let markdownContent = lines.slice(contentStart).join('\n');
+
+  // Convert Obsidian image syntax ![[filename]] to standard markdown with resolved URLs
+  markdownContent = markdownContent.replace(/!\[\[([^\]]+)\]\]/g, (match, filename) => {
+    const imageUrl = attachmentMap[filename] || '';
+    return `![${filename}](${imageUrl})`;
+  });
 
   return { 
     title, 
@@ -117,7 +143,9 @@ export default function EntryDetail() {
         )}
       </header>
       <div className="entry-detail-content">
-        <ReactMarkdown>{entry.content}</ReactMarkdown>
+        <ReactMarkdown components={{ img: CustomImage }}>
+          {entry.content}
+        </ReactMarkdown>
       </div>
     </article>
   );

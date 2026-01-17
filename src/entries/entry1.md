@@ -14,3 +14,5 @@ Ut eget nunc mattis, finibus odio quis, semper ex. Aliquam iaculis pellentesque 
 Duis suscipit libero sit amet lorem luctus ultricies. Pellentesque tincidunt risus erat, vel iaculis lectus bibendum eu. Praesent leo neque, fermentum vitae diam id, auctor suscipit augue. Cras varius quis sem quis laoreet. Donec semper dignissim semper. Ut nec neque mi. Quisque efficitur eget mauris ut blandit. Mauris sed mauris id turpis tempor aliquam vel eget dui. Aliquam sit amet pellentesque elit. 
 
 ![[Pasted image 20260117182717.png]]
+
+murah
