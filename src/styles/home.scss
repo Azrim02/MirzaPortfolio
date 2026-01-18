@@ -1,10 +1,17 @@
 .Home {
+    padding-bottom: 10vh;
+    max-width: 80%;
+    margin:  50px auto;
+}
+
+.Intro {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    //padding: 200px 0px;
-    min-height: 80vh;
+    // padding: 50px 0px;
+    margin:50px 0px;
+    gap: 50px;
 }
 
 .CandidContainer {
@@ -31,13 +38,41 @@
     vertical-align: middle;
 }
 
-.Home > div {
-    margin: 40px;
+.Myra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.MyraCandidContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35vh;
+    height: auto;
+    border: solid var(--color-primary) 10px;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.MyraCandid {
+    max-width: 25vh;
+    height: auto;    
+    border-radius: 5px;
+    background-color: rgb(172, 190, 172);
 }
 
 @media (max-aspect-ratio: 1/1) {
-    .Home {
-        flex-direction: column-reverse;
+    .Intro {
+        flex-direction: column;
+        justify-content: start;
+        padding: 0px 0px;
+    }
+
+    .Myra {
+        flex-direction: column;
         justify-content: start;
         padding: 0px 0px;
     }
