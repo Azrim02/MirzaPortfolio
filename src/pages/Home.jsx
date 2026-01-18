@@ -1,6 +1,8 @@
+import { Link } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import '../styles/home.scss';
-import logo from '../assets/logo.png';
+import Candid from '../assets/CandidLondon.png';
+import CoolEmoji from '../assets/cool_emoji.png';
 
 export default function Home() {
   return (
@@ -13,10 +15,12 @@ export default function Home() {
         {/* <Button as="a" variant='success'>Get Started</Button> */}
         <br></br>
         <p>Avid learner, meme connoisseur, and an indecisive fudge</p>
-        <p>Professionally, I'm a great guy</p>
+        <p>Professionally, I'm a great guy <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
+        <Button as={Link} to="/entries" variant='success'>See what I've been up to</Button>
+        <Button as={Link} to="/contact" variant='outline-success' style={{ marginLeft: '10px' }}>Contact</Button>
       </div>
-      <div>
-        <img src={logo} alt="Mirza Shariman" />
+      <div className="CandidContainer">
+        <img className="Candid" src={Candid} alt="Mirza Shariman" />
       </div>
     </div>
   );

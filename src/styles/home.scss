@@ -7,8 +7,32 @@
     min-height: 80vh;
 }
 
+.CandidContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 35vh;
+    height: auto;
+    border: solid var(--color-primary) 18px;
+    border-radius: 25px;
+}
+
+.Candid {
+    max-width: 30vh;
+    height: auto;    
+    border-radius: 6px;
+    background-color: rgb(172, 190, 172);
+}
+
+.CoolEmoji {
+    width: 70px;
+    height: 55px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
 .Home > div {
-    margin: 20px;
+    margin: 40px;
 }
 
 @media (max-aspect-ratio: 1/1) {
