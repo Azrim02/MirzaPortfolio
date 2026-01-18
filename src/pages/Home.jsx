@@ -10,8 +10,8 @@ export default function Home() {
       <div>
         <h6>Hello, I'm</h6>
         <h2><b>Mirza Shariman</b></h2>
-        <h1>Junior Software Developer</h1>
-        <h5>| Linux, Python, Java, React, AWS, Arduino</h5>
+        <h1 style={{ color: '#546e59' }}><b>Junior Software Developer</b></h1>
+        <h5 style={{ color: 'gray' }}>| Linux, Python, Java, React, AWS, Arduino</h5>
         {/* <Button as="a" variant='success'>Get Started</Button> */}
         <br></br>
         <p>Avid learner, meme connoisseur, and an indecisive fudge</p>
