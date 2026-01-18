@@ -5,6 +5,7 @@ import Candid from '../assets/CandidLondon.png';
 import Yayang from '../assets/YayangKinguKongu.jpeg';
 import CoolEmoji from '../assets/cool_emoji.png';
 import { GitHubCalendar } from 'react-github-calendar';
+import InterestsGallery from '../components/InterestsGallery';
 
 export default function Home() {
   return (
@@ -27,6 +28,9 @@ export default function Home() {
         </div>
       </div>
       <hr></hr>
+      <h4>Currently curious about...</h4>
+      <InterestsGallery/>
+      <hr></hr>
       <h4>My GitHub Contributions</h4>
       <GitHubCalendar username="Azrim02" colorScheme='light'/>
       <hr></hr>
@@ -36,7 +40,7 @@ export default function Home() {
         </div>
         <div>
           <h3><b>The love of my life ❤️</b></h3>
-          <p>My love and sunshine, who were always there to support me through thick and thin. 
+          <p>My love and sunshine, who was always there to support me through thick and thin. 
             <br></br>
             Currently undergoing her Bar Training Course (BTC) in the UK, and will qualify as a barrister in the near future!
             <br></br>
