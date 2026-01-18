@@ -50,7 +50,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 35vh;
+    max-width: 30vh;
     height: auto;
     border: solid var(--color-primary) 10px;
     border-radius: 15px;
@@ -58,13 +58,13 @@
 }
 
 .MyraCandid {
-    max-width: 25vh;
+    max-width: 20vh;
     height: auto;    
     border-radius: 5px;
     background-color: rgb(172, 190, 172);
 }
 
-@media (max-aspect-ratio: 1/1) {
+@media (orientation: portrait) {
     .Intro {
         flex-direction: column;
         justify-content: start;

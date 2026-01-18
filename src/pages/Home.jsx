@@ -4,6 +4,7 @@ import '../styles/home.scss';
 import Candid from '../assets/CandidLondon.png';
 import Yayang from '../assets/YayangKinguKongu.jpeg';
 import CoolEmoji from '../assets/cool_emoji.png';
+import { GitHubCalendar } from 'react-github-calendar';
 
 export default function Home() {
   return (
@@ -16,8 +17,8 @@ export default function Home() {
           <h5 style={{ color: 'gray' }}>| Linux, Python, Java, React, AWS, Arduino</h5>
           {/* <Button as="a" variant='success'>Get Started</Button> */}
           <br></br>
-          <p>Avid learner, meme connoisseur, and an indecisive fudge</p>
-          <p>Professionally, I'm a great guy <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
+          <p>Avid learner, meme connoisseur, and an indecisive fudge.</p>
+          <p>Professionally, I'm a great guy. <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
           <Button as={Link} to="/entries" variant='success'>See what I've been up to</Button>
           <Button as={Link} to="/contact" variant='outline-success' style={{ marginLeft: '10px' }}>Contact</Button>
         </div>
@@ -25,6 +26,10 @@ export default function Home() {
           <img className="Candid" src={Candid} alt="Mirza Shariman" />
         </div>
       </div>
+      <hr></hr>
+      <h4>My GitHub Contributions</h4>
+      <GitHubCalendar username="Azrim02" colorScheme='light'/>
+      <hr></hr>
       <div className="Myra">
         <div className="MyraCandidContainer">
           <img className="MyraCandid" src={Yayang} alt="Cutiepipi" />
