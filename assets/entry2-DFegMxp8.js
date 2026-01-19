@@ -1,5 +1,6 @@
 const e=`---
 date: "10-01-24"
+project: "Learning Git"
 tags: ["Git", "Version Control", "Development"]
 ---
 
