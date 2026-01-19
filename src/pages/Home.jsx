@@ -21,7 +21,7 @@ export default function Home() {
           <p>Avid learner, meme connoisseur, and an indecisive fudge.</p>
           <p>Professionally, I'm a great guy. <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
           <Button as={Link} to="/entries" variant='success'>See what I've been up to</Button>
-          <Button as={Link} to="/contact" variant='outline-success' style={{ marginLeft: '10px' }}>Contact</Button>
+          <Button as={Link} to="/contact" variant='outline-success' style={{ marginLeft: '10px' }}>Get in touch</Button>
         </div>
         <div className="CandidContainer">
           <img className="Candid" src={Candid} alt="Mirza Shariman" />
