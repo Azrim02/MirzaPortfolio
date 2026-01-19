@@ -4,9 +4,11 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Entries from './pages/Entries';
 import EntryDetail from './pages/EntryDetail';
+import Footer from './components/Footer';
 
 function App() {
   return (
+    <div>
     <BrowserRouter basename='MirzaPortfolio'>
       <NavBar />
       <Routes>
@@ -16,6 +18,8 @@ function App() {
         <Route path="/entries/:entryName" element={<EntryDetail />} />
       </Routes>
     </BrowserRouter>
+    <Footer />
+    </div>
   );
 }
 
