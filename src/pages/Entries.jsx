@@ -52,7 +52,8 @@ function parseMarkdown(content) {
     title, 
     description,
     date: parseDateFromFrontmatter(frontmatter.date) || '',
-    tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : []
+    tags: Array.isArray(frontmatter.tags) ? frontmatter.tags : [],
+    project: frontmatter.project || ''
   };
 }
 
@@ -67,7 +68,7 @@ export default function Entries() {
       for (const [path, loader] of Object.entries(entryFiles)) {
         const content = await loader();
         const fileName = path.split('/').pop();
-        const { title, description, date, tags } = parseMarkdown(content);
+        const { title, description, date, tags, project } = parseMarkdown(content);
         
         loadedEntries.push({
           fileName,
@@ -75,6 +76,7 @@ export default function Entries() {
           description,
           date,
           tags,
+          project,
           path
         });
       }

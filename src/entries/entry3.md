@@ -1,5 +1,6 @@
 ---
 date: "13-01-24"
+project: "UI/UX Design"
 tags: ["UI/UX Design", "CSS", "Frontend"]
 ---
 

@@ -22,7 +22,7 @@ function NavBar() {
             <Nav className="ms-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
               <Nav.Link as={Link} to="/entries">Entries</Nav.Link>
-              <NavDropdown title="Projects" id="basic-nav-dropdown">
+              {/* <NavDropdown title="Projects" id="basic-nav-dropdown">
                 <NavDropdown.Item as={Link} to="/projects/a">
                   Project A
                 </NavDropdown.Item>
@@ -32,7 +32,8 @@ function NavBar() {
                 <NavDropdown.Item as={Link} to="/projects/c">
                   Project C
                 </NavDropdown.Item>
-              </NavDropdown>
+              </NavDropdown> */}
+              <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
