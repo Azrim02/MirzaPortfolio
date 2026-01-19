@@ -59,7 +59,7 @@
   /* justify-content: center; */
   scroll-snap-align: center;
   inline-size: 100%;
-  max-inline-size: 25rem;
+  max-inline-size: 18rem;
   /* font-size: 2rem; */
   /* background: none;  Change this color  */
   /* border-radius: 4px; */
@@ -80,18 +80,18 @@
 }
 
 .gallery .floating_content > *.lg {
-  max-inline-size: 25rem;
+  max-inline-size: 18rem;
 }
 
 .gallery .floating_content > *.md {
-  max-inline-size: 20rem;
+  max-inline-size: 15rem;
 }
 
 .gallery .floating_content > *.sm {
-  max-inline-size: 15rem;
+  max-inline-size: 12rem;
 }
 .gallery .floating_content > *.xs {
-  max-inline-size: 10rem;
+  max-inline-size: 8rem;
 }
 
 

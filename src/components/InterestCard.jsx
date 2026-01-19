@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 function InterestCard({ skillName, logoSrc, link }) {
     const cardstyle = {
         width:  'auto',
-        height: '100px',
+        height: '70px',
         justifyContent: 'center',
         alignItems: 'center',
         cursor: 'pointer',
@@ -39,8 +39,8 @@ function InterestCard({ skillName, logoSrc, link }) {
               alt={skillName}
               style={{
                 flex: '0 0 auto',
-                width: '80px',
-                height: '80px',
+                width: '60px',
+                height: '60px',
                 objectFit: 'contain',
               }}
             />
@@ -54,14 +54,14 @@ function InterestCard({ skillName, logoSrc, link }) {
                 alignItems: 'center',   // vertical center inside flex container
               }}
             >
-              <h3 style={{ 
+              <h5 style={{ 
                 margin: 0, whiteSpace: 'wrap',
                 overflow: 'hidden',
                 textOverflow: 'ellipsis', 
                 }}
                 >
                   {skillName}
-                  </h3>
+                  </h5>
             </div>
           </div>
         </Card>
