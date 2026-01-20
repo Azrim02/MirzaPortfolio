@@ -121,14 +121,14 @@ export default function EntryDetail() {
     return (
       <div className="entry-detail">
         <p>{error || 'Entry not found'}</p>
-        <button onClick={() => navigate('/entries')}>Back to Entries</button>
+        <button onClick={() => navigate(-1)}>Back to Entries</button>
       </div>
     );
   }
 
   return (
     <article className="entry-detail">
-      <button className="back-button" onClick={() => navigate('/entries')}>← Back</button>
+      <button className="back-button" onClick={() => navigate(-1)}>← Back</button>
       <header className="entry-detail-header">
         {/* <h1>{entry.title}</h1> */}
         <p className="entry-detail-meta">
