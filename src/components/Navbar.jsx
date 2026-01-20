@@ -1,5 +1,5 @@
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import '../styles/navbar.scss';
 
 function NavBar() {
@@ -7,7 +7,7 @@ function NavBar() {
     <div>
       <Navbar expand="lg" bg="dark" variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/">
+          <Navbar.Brand as={NavLink} to="/">
             {/* <img
               alt="logo"
               src={logo}
@@ -20,21 +20,21 @@ function NavBar() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className='navbar-collapse'>
             <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
-              <Nav.Link as={Link} to="/entries">Entries</Nav.Link>
+              <Nav.Link as={NavLink} to="/">Home</Nav.Link>
+              <Nav.Link as={NavLink} to="/entries">Entries</Nav.Link>
               {/* <NavDropdown title="Projects" id="basic-nav-dropdown">
-                <NavDropdown.Item as={Link} to="/projects/a">
+                <NavDropdown.Item as={NavLink} to="/projects/a">
                   Project A
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/projects/b">
+                <NavDropdown.Item as={NavLink} to="/projects/b">
                   Project B
                 </NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/projects/c">
+                <NavDropdown.Item as={NavLink} to="/projects/c">
                   Project C
                 </NavDropdown.Item>
               </NavDropdown> */}
-              <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+              <Nav.Link as={NavLink} to="/projects">Projects</Nav.Link>
+              <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
