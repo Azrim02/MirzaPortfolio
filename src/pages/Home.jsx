@@ -32,7 +32,9 @@ export default function Home() {
       <InterestsGallery/>
       <hr></hr>
       <h4>My GitHub Contributions</h4>
-      <GitHubCalendar username="Azrim02" colorScheme='light'/>
+      <div className="github-calendar-container">
+        <GitHubCalendar username="Azrim02" colorScheme='light'/>
+      </div>
       <hr></hr>
       <div className="Myra">
         <div className="MyraCandidContainer">
