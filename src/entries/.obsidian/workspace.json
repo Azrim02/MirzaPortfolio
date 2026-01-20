@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "entry1.md",
+                "file": "initWebsite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "entry1"
+              "title": "initWebsite"
             }
           }
         ]
@@ -185,11 +185,12 @@
   },
   "active": "211f5541c2d24069",
   "lastOpenFiles": [
-    "entry3.md",
+    "attachments/Pasted image 20260120230429.png",
     "attachments/Pasted image 20260117195436.png",
-    "entry2.md",
-    "entry1.md",
     "attachments/Pasted image 20260117182717.png",
+    "initWebsite.md",
+    "entry3.md",
+    "entry2.md",
     "attachments/Pasted image 20260117185133.png",
     "attachments/Pasted image 20260117185131.png",
     "attachments/Pasted image 20260117184850.png",
