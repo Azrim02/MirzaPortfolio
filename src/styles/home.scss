@@ -7,24 +7,55 @@
     align-items: center;
 }
 
-.Intro {
-    display: flex;
-    flex-direction: row;
+.IntroContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "Intro CandidContainer"
+        "Desc CandidContainer";
     align-items: center;
-    justify-content: center;
+    justify-items: center;
     // padding: 50px 0px;
-    margin: 50px 0px;
-    gap: 50px;
+    //margin: 50px 0px;
+    gap: 5px;
+    padding: 5px;
+}
+
+.IntroContainer div {
+    //margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+    background-color: white;
+}
+
+.IntroContainer div.Intro {
+    grid-area: Intro;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: left;
+}
+
+.IntroContainer div.Desc {
+    grid-area: Desc;
+    margin: 0;
+    text-align: left;
+}
+
+.IntroContainer .CandidContainer {
+    grid-area: CandidContainer;
 }
 
 .CandidContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 35vh;
+    max-width: 33vh;
+    max-height: 46vh;
     height: auto;
     border: solid var(--color-primary) 18px;
-    border-radius: 25px;
+    border-radius: 15px;
 }
 
 .Candid {
@@ -80,6 +111,15 @@
         max-width: 90%;
         margin:  20px 5vh 0px 5vh;
     }
+    .IntroContainer {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "Intro"
+            "CandidContainer"
+            "Desc";
+        gap: 20px;
+    }
+    
     .Intro {
         flex-direction: column;
         justify-content: start;

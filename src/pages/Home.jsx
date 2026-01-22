@@ -10,14 +10,14 @@ import InterestsGallery from '../components/InterestsGallery';
 export default function Home() {
   return (
     <div className="Home">
-      <div className="Intro">
-        <div>
+      <div className="IntroContainer">
+        <div className="Intro">
           <h6>Hello, I'm</h6>
           <h2><b>Mirza Shariman</b></h2>
           <h1 style={{ color: '#546e59' }}><b>Software Engineer</b></h1>
           <h5 style={{ color: 'gray' }}>| Linux, Python, Java, React, AWS, Arduino</h5>
-          {/* <Button as="a" variant='success'>Get Started</Button> */}
-          <br></br>
+        </div>
+        <div className="Desc">
           <p>Avid learner, meme connoisseur, and an indecisive fudge.</p>
           <p>Professionally, I'm a great guy. <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
           <Button as={Link} to="/entries" variant='success'>Recent Works</Button>
