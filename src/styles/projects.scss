@@ -94,6 +94,18 @@
   gap: 1rem;
 }
 
+.blog-entry {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 24px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.blog-entry:hover {
+  transform: translateX(4px);
+  border-color: #d0d0d0;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

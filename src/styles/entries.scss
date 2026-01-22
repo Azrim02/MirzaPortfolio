@@ -21,21 +21,23 @@
 }
 
 .blog-entry {
-  border-bottom: 1px solid #e5e5e5;
-  padding-bottom: 40px;
-  transition: transform 0.2s ease;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 24px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
 .blog-entry:last-child {
-  border-bottom: none;
+  border: 1px solid #e5e5e5;
 }
 
 .blog-entry:hover {
   transform: translateX(4px);
+  border-color: #d0d0d0;
 }
 
 .blog-entry-header {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .blog-entry-title {
