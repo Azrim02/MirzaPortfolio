@@ -20,8 +20,8 @@ export default function Home() {
         <div className="Desc">
           <p>Avid learner, meme connoisseur, and an indecisive fudge.</p>
           <p>Professionally, I'm a great guy. <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
-          <Button as={Link} to="/entries" variant='success'>Recent Works</Button>
-          <Button as={Link} to="/contact" variant='outline-success' style={{ marginLeft: '10px' }}>Contact Me</Button>
+          <Button className="Button" as={Link} to="/entries" variant='success'>Recent Works</Button>
+          <Button className="Button" as={Link} to="/contact" variant='outline-success'>Contact Me</Button>
         </div>
         <div className="CandidContainer">
           <img className="Candid" src={Candid} alt="Mirza Shariman" />

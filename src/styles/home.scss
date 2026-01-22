@@ -7,6 +7,11 @@
     align-items: center;
 }
 
+.Button {
+    gap: 20px;
+    margin-right: 5px;
+}
+
 .IntroContainer {
     display: grid;
     grid-template-columns: auto auto;
