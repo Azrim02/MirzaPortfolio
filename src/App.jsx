@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-    <BrowserRouter basename='MirzaPortfolio'>
+    <BrowserRouter>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
