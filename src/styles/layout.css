@@ -33,7 +33,7 @@
   display: grid;
   grid-template-columns: inherit;
   padding-block: var(--space-md);
-  overflow-x: scroll;
+  overflow-x: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
   scrollbar-width: none;
@@ -50,6 +50,29 @@
   display: flex;
   align-items: center;
   gap: var(--space);
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.gallery[data-direction="left"] .floating_content {
+  animation: scroll-reverse 30s linear infinite;
+}
+
+@keyframes scroll-reverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .gallery .floating_content > * {

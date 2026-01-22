@@ -11,10 +11,13 @@ export default function GalleryDiv({
   direction = "right",
   galleryItemsAspectRatio,
 }: GalleryDivProps) {
+  // Duplicate children for seamless looping
+  const duplicatedChildren = [...children, ...children];
+
   return (
     <div className="gallery" data-direction={direction}>
       <div className="floating_content" data-images={galleryItemsAspectRatio}>
-        {children}
+        {duplicatedChildren}
       </div>
     </div>
   );
