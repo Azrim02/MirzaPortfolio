@@ -1,5 +1,4 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+import { Card } from 'react-bootstrap';
 
 function EntryCard({ title, description, date, fileName }) {
   return (

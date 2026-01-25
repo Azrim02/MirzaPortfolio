@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
+import { Button } from 'react-bootstrap';
 import '../styles/home.scss';
 import Candid from '../assets/CandidLondon.png';
 import Yayang from '../assets/YayangKinguKongu.jpeg';
