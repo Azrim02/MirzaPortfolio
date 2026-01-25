@@ -6,6 +6,7 @@ import './styles/colors.scss'
 import routes from './App.tsx'
 
 export const createRoot = ViteReactSSG(
+  App,
   // react-router-dom data routes
   { routes },
   // function to have custom setups
