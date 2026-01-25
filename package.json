@@ -8,7 +8,8 @@
     "build": "vite-react-ssg build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "deploy:static": "cp CNAME dist/CNAME 2>/dev/null || true && cp sitemap.xml dist/sitemap.xml 2>/dev/null || true && cp robots.txt dist/robots.txt 2>/dev/null || true && touch dist/.nojekyll && cd dist && git init && git add . && git commit -m 'Deploy current dist/' && git branch -M gh-pages && git remote add origin git@github.com:username/repo.git 2>/dev/null || true && git push -f origin gh-pages && cd .."
   },
   "dependencies": {
     "@formspree/react": "^3.0.0",
