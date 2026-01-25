@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
+    "dev": "vite-react-ssg dev",
+    "build": "vite-react-ssg build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
@@ -18,8 +18,7 @@
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.0",
     "react-github-calendar": "^5.0.4",
-    "react-markdown": "^10.1.0",
-    "react-router-dom": "^7.11.0"
+    "react-markdown": "^10.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
@@ -31,8 +30,10 @@
     "eslint-plugin-react-refresh": "^0.4.24",
     "gh-pages": "^6.3.0",
     "globals": "^16.5.0",
+    "react-router-dom": "^6.30.3",
     "sass-embedded": "^1.97.1",
-    "vite": "^7.2.4"
+    "vite": "^7.2.4",
+    "vite-react-ssg": "^0.8.9"
   },
   "homepage": "https://Azrim02.github.io/my-portfolio"
 }
