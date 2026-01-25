@@ -56,8 +56,8 @@ export const routes: RouteRecord[] = [
         getStaticPaths: async () => {
           // 👇 match this to your markdown files
           return [
-            'entries/hello-world',
-            'entries/my-second-post',
+            'entries/initWebsite',
+            'entries/RaspberryPisetup',
           ]
         },
       },
