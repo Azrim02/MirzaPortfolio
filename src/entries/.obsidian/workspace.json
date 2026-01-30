@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "initWebsite.md",
+                "file": "Domain&SEO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "initWebsite"
+              "title": "Domain&SEO"
             }
           }
         ]
@@ -185,10 +185,12 @@
   },
   "active": "211f5541c2d24069",
   "lastOpenFiles": [
+    "attachments/Pasted image 20260130202322.png",
+    "attachments/Pasted image 20260130180112.png",
+    "initWebsite.md",
     "attachments/Pasted image 20260120230429.png",
     "attachments/Pasted image 20260117195436.png",
     "attachments/Pasted image 20260117182717.png",
-    "initWebsite.md",
     "entry3.md",
     "entry2.md",
     "attachments/Pasted image 20260117185133.png",
