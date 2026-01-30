@@ -1,0 +1,82 @@
+{
+  "_client-BiCX24QM.js": {
+    "file": "assets/client-BiCX24QM.js",
+    "name": "client",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "index.html": {
+    "file": "assets/app-BKGlsYp7.js",
+    "name": "app",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "_client-BiCX24QM.js",
+      "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js",
+      "src/entries/Domain&SEO.md?raw",
+      "src/entries/initWebsite.md?raw",
+      "src/entries/Domain&SEO.md?raw",
+      "src/entries/initWebsite.md?raw",
+      "src/entries/Domain&SEO.md?raw",
+      "src/entries/initWebsite.md?raw"
+    ],
+    "css": [
+      "assets/app-Dz9dcaNV.css"
+    ],
+    "assets": [
+      "assets/CandidLondon-QLyGVTjU.png",
+      "assets/YayangKinguKongu-Cz8m6FHy.jpeg",
+      "assets/cool_emoji-Bhv5GUHi.png",
+      "assets/Pasted image 20260120230429-BjDD17Dx.png",
+      "assets/Pasted image 20260130180112-Bgs2C7vs.png",
+      "assets/Pasted image 20260130202322-CkudXHCi.png"
+    ]
+  },
+  "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js": {
+    "file": "assets/Tooltip-CX2cJQ7a-CiSCVCnh.js",
+    "name": "Tooltip-CX2cJQ7a",
+    "src": "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "src/assets/CandidLondon.png": {
+    "file": "assets/CandidLondon-QLyGVTjU.png",
+    "src": "src/assets/CandidLondon.png"
+  },
+  "src/assets/YayangKinguKongu.jpeg": {
+    "file": "assets/YayangKinguKongu-Cz8m6FHy.jpeg",
+    "src": "src/assets/YayangKinguKongu.jpeg"
+  },
+  "src/assets/cool_emoji.png": {
+    "file": "assets/cool_emoji-Bhv5GUHi.png",
+    "src": "src/assets/cool_emoji.png"
+  },
+  "src/entries/Domain&SEO.md?raw": {
+    "file": "assets/Domain_SEO-CNb9LBd8.js",
+    "name": "Domain_SEO",
+    "src": "src/entries/Domain&SEO.md?raw",
+    "isDynamicEntry": true
+  },
+  "src/entries/attachments/Pasted image 20260120230429.png": {
+    "file": "assets/Pasted image 20260120230429-BjDD17Dx.png",
+    "src": "src/entries/attachments/Pasted image 20260120230429.png"
+  },
+  "src/entries/attachments/Pasted image 20260130180112.png": {
+    "file": "assets/Pasted image 20260130180112-Bgs2C7vs.png",
+    "src": "src/entries/attachments/Pasted image 20260130180112.png"
+  },
+  "src/entries/attachments/Pasted image 20260130202322.png": {
+    "file": "assets/Pasted image 20260130202322-CkudXHCi.png",
+    "src": "src/entries/attachments/Pasted image 20260130202322.png"
+  },
+  "src/entries/initWebsite.md?raw": {
+    "file": "assets/initWebsite-B_tJQ2td.js",
+    "name": "initWebsite",
+    "src": "src/entries/initWebsite.md?raw",
+    "isDynamicEntry": true
+  }
+}
