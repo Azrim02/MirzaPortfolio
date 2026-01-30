@@ -1,6 +1,6 @@
 {
-  "_client-BiCX24QM.js": {
-    "file": "assets/client-BiCX24QM.js",
+  "_client-Dyzf5Aj6.js": {
+    "file": "assets/client-Dyzf5Aj6.js",
     "name": "client",
     "isDynamicEntry": true,
     "imports": [
@@ -8,12 +8,12 @@
     ]
   },
   "index.html": {
-    "file": "assets/app-BKGlsYp7.js",
+    "file": "assets/app-DSYCwzCD.js",
     "name": "app",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_client-BiCX24QM.js",
+      "_client-Dyzf5Aj6.js",
       "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js",
       "src/entries/Domain&SEO.md?raw",
       "src/entries/initWebsite.md?raw",
@@ -35,7 +35,7 @@
     ]
   },
   "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js": {
-    "file": "assets/Tooltip-CX2cJQ7a-CiSCVCnh.js",
+    "file": "assets/Tooltip-CX2cJQ7a-c4nujHkf.js",
     "name": "Tooltip-CX2cJQ7a",
     "src": "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js",
     "isDynamicEntry": true,
