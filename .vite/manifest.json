@@ -1,6 +1,6 @@
 {
-  "_client-Dyzf5Aj6.js": {
-    "file": "assets/client-Dyzf5Aj6.js",
+  "_client-Bx_-NEM4.js": {
+    "file": "assets/client-Bx_-NEM4.js",
     "name": "client",
     "isDynamicEntry": true,
     "imports": [
@@ -8,12 +8,12 @@
     ]
   },
   "index.html": {
-    "file": "assets/app-DSYCwzCD.js",
+    "file": "assets/app-CtdJaVkD.js",
     "name": "app",
     "src": "index.html",
     "isEntry": true,
     "dynamicImports": [
-      "_client-Dyzf5Aj6.js",
+      "_client-Bx_-NEM4.js",
       "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js",
       "src/entries/Domain&SEO.md?raw",
       "src/entries/initWebsite.md?raw",
@@ -23,7 +23,7 @@
       "src/entries/initWebsite.md?raw"
     ],
     "css": [
-      "assets/app-Dz9dcaNV.css"
+      "assets/app-BDM_AvOe.css"
     ],
     "assets": [
       "assets/CandidLondon-QLyGVTjU.png",
@@ -35,7 +35,7 @@
     ]
   },
   "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js": {
-    "file": "assets/Tooltip-CX2cJQ7a-c4nujHkf.js",
+    "file": "assets/Tooltip-CX2cJQ7a-DWff6NQs.js",
     "name": "Tooltip-CX2cJQ7a",
     "src": "node_modules/react-activity-calendar/build/chunks/Tooltip-CX2cJQ7a.js",
     "isDynamicEntry": true,
@@ -56,7 +56,7 @@
     "src": "src/assets/cool_emoji.png"
   },
   "src/entries/Domain&SEO.md?raw": {
-    "file": "assets/Domain_SEO-CNb9LBd8.js",
+    "file": "assets/Domain_SEO-BnZK7j9C.js",
     "name": "Domain_SEO",
     "src": "src/entries/Domain&SEO.md?raw",
     "isDynamicEntry": true
