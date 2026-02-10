@@ -46,6 +46,9 @@
     grid-area: Desc;
     margin: 0;
     text-align: left;
+    p {
+        margin-bottom: 0px;
+    }
 }
 
 .IntroContainer .CandidContainer {
@@ -113,8 +116,8 @@
 
 @media (orientation: portrait) {
     .Home {
-        max-width: 90%;
-        margin:  20px 5vh 0px 5vh;
+        max-width: 100%;
+        margin:  20px 0 0px 0;
     }
     .IntroContainer {
         grid-template-columns: 1fr;
@@ -129,6 +132,28 @@
         flex-direction: column;
         justify-content: start;
         padding: 0px 0px;
+        h5 {
+            font-size: small;
+        }
+    }
+
+    .IntroDesc {
+        margin-top: 10px;
+        font-size: 0.9rem;
+        .CoolEmoji {
+            width: 50px;
+            height: 40px;
+            margin-left: 5px;
+        }
+        p {
+            margin-bottom: 0px;
+        }
+    }
+    .IntroButtons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
     }
 
     .Myra {

@@ -18,10 +18,14 @@ export default function Home() {
           <h5 style={{ color: 'gray' }}>| Linux, Python, Java, React, AWS, Arduino</h5>
         </div>
         <div className="Desc">
-          <p>Avid learner, meme connoisseur, and an indecisive fudge.</p>
-          <p>Professionally, I'm a great guy. <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
-          <Button className="Button" as={Link} to="/entries" variant='success'>Recent Works</Button>
-          <Button className="Button" as={Link} to="/contact" variant='outline-success'>Contact Me</Button>
+          <div className="IntroDesc">
+            <p>Avid learner, meme connoisseur, and an indecisive fudge.</p>
+            <p>Professionally, I'm a great guy. <img className="CoolEmoji" src={CoolEmoji} alt="cool emoji"/> </p>
+          </div>
+          <div className="IntroButtons">
+            <Button className="Button" as={Link} to="/entries" variant='success'>Recent Works</Button>
+            <Button className="Button" as={Link} to="/contact" variant='outline-success'>Contact Me</Button>
+          </div>
         </div>
         <div className="CandidContainer">
           <img className="Candid" src={Candid} alt="Mirza Shariman" />
