@@ -57,7 +57,7 @@ export const routes: RouteRecord[] = [
           // 👇 match this to your markdown files
           return [
             'entries/initWebsite',
-            'entries/Domain&SEO',
+            'entries/DomainAndSEO',
           ]
         },
       },
