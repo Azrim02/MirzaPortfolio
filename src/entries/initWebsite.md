@@ -1,12 +1,11 @@
 ---
 date: 20-01-26
-project: Websites
+project: Web Development
 tags:
-  - WebDev
   - React
   - Markdown
 ---
-# My own portfolio website!
+# My Own Portfolio Website!
 
 Hello! It's a great honour to have you reading this as one of my earliest visitors. I hope you'll have a great time looking around on what I've been and will be up to. Without further ado... 
 

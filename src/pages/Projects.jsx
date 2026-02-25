@@ -14,25 +14,45 @@ function parseMarkdown(content) {
   // Parse frontmatter
   if (lines[0].trim() === '---') {
     let fmEnd = -1;
+    let inTagsArray = false;
+    let tagsArray = [];
     for (let i = 1; i < lines.length; i++) {
       if (lines[i].trim() === '---') {
         fmEnd = i;
         contentStart = i + 1;
         break;
       }
+      // Handle YAML-style tags array
+      if (inTagsArray) {
+        if (lines[i].trim().startsWith('-')) {
+          tagsArray.push(lines[i].trim().replace(/^-\s*/, ''));
+          continue;
+        } else if (lines[i].trim() === '' || lines[i].includes(':')) {
+          inTagsArray = false;
+        }
+      }
       const [key, ...valueParts] = lines[i].split(':');
       if (key && valueParts.length > 0) {
         let value = valueParts.join(':').trim();
-        
-        // Handle array values for tags
-        if (key.trim() === 'tags' && value.startsWith('[')) {
-          value = value.replace(/[\[\]"']/g, '').split(',').map(tag => tag.trim());
-        } else {
-          value = value.replace(/^["']|["']$/g, '');
+        if (key.trim() === 'tags') {
+          // Start of YAML-style array
+          if (value === '') {
+            inTagsArray = true;
+            tagsArray = [];
+            continue;
+          } else if (value.startsWith('[')) {
+            // JSON-style array
+            value = value.replace(/[\[\]"']/g, '').split(',').map(tag => tag.trim());
+            frontmatter[key.trim()] = value;
+            continue;
+          }
         }
-        
+        value = value.replace(/^['"]|['"]$/g, '');
         frontmatter[key.trim()] = value;
       }
+    }
+    if (tagsArray.length > 0) {
+      frontmatter['tags'] = tagsArray;
     }
   }
 
