@@ -42,6 +42,7 @@ function InterestCard({ skillName, logoSrc, link }) {
                 width: '60px',
                 height: '60px',
                 objectFit: 'contain',
+                padding: '5px 0px',
               }}
             />
 

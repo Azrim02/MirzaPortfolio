@@ -37,11 +37,27 @@ function InterestsGallery() {
                 logoSrc="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png"
                 link="https://www.linux.org/"
                 />
-                {/* <img src={CoolEmoji} alt='test images' />
-                <img src={CoolEmoji} alt='test images' />
-                <img src={CoolEmoji} alt='test images' />
-                <img src={CoolEmoji} alt='test images' />
-                <img src={CoolEmoji} alt='test images' /> */}
+                <InterestCard
+                skillName="NodeJS"
+                logoSrc="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg"
+                link="https://nodejs.org/"
+                />
+                <InterestCard
+                skillName="PostgreSQL"
+                logoSrc="https://upload.wikimedia.org/wikipedia/commons/a/ad/Logo_PostgreSQL.png"
+                link="https://www.postgresql.org/"
+                />
+                <InterestCard
+                skillName="MongoDB"
+                logoSrc="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg"
+                link="https://www.mongodb.com/"
+                />
+                {/* <InterestCard
+                skillName="OpenShift Cloud Platform"
+                logoSrc="https://upload.wikimedia.org/wikipedia/commons/4/4e/OpenShift_Logo.svg"
+                link="https://www.openshift.com/"
+                /> */}
+                
             </GalleryDiv>
         </Layout>
     );
