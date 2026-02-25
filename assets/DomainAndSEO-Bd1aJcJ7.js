@@ -1,12 +1,12 @@
 const e=`---
 date: 30-01-26
-project: Websites
+project: Web Development
 tags:
   - SEO
-  - domain
-  - react-ssg
+  - Domain Name Service
+  - REACT-SSG
 ---
-# Setting domain and improving SEO
+# Setting Domain and Improving SEO
 
 Now that my portfolio website is set up, I wouldn't want it to be only accessible by a limited number of people. Hence, I'm going to give it a name and improve its searchability.
 
@@ -15,7 +15,7 @@ By default, a website will be hosted on a server with a specified IP address (e.
 
 Instead of remembering numbers, it is much easier for us human to memorize and recall words. Why remember \`10.34.213.87\` (again, not a real IP address) when you can just use \`somethingsomething.com\`? 
 
-As for the website, I've purchased the domain \`mirzashariman.com\` from GoDaddy (RM100+ for 2 years btw...) because it is such a cool name. Then, I've made a few configurations in order for the domain to work properly. Now, whenever a user keys in \`mirzashariman.com\` in their browser, I've set it so that it redirects to my website, which is hosted on Github Pages. Aannd, the result shows!
+As for the website, I've purchased the domain \`mirzashariman.com\` from GoDaddy (RM100+ for 2 years...) because it is such a cool name. Then, I've made a few configurations in order for the domain to work properly. Now, whenever a user keys in \`mirzashariman.com\` in their browser, I've set it so that it redirects to my website, which is hosted on Github Pages. Aannd, the result shows!
 
 ![[Pasted image 20260130180112.png]]
 
