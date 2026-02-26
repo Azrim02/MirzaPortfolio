@@ -8,7 +8,7 @@ tags:
 ---
 # Todo-as-a-service
 
-Most of the part you see on a website are the 'front-end' components. I'm sure you've heard of the 'back-end' part that works in the shadow... but what does it actually do? Aside from that, how do we test that our back-end performs the way it is intended?
+Most of the part you see on a website are the 'front-end' components. I'm sure you've heard of the 'back-end' part that works in the shadow... but what does it actually do? Aside from that, how do we test that our back-end performs as intended?
 
 I'll be finding out with this new project of mine namely "todo-as-a-service" to receive API requests from users through RESTful API calls. Also in this project, I'll be practicing the test-driven development (TDD) development philosophy, with is a part of the agile development best practices. We'll talk about persistent storage using SQLite later. But for now, we'll get through with the good 'ol memory session storage.
 
