@@ -3,8 +3,8 @@ date: 30-01-26
 project: Web Development
 tags:
   - SEO
-  - Domain Name Service
-  - REACT-SSG
+  - SSG
+  - DNS
 ---
 # Setting Domain and Improving SEO
 
