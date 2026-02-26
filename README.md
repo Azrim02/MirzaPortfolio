@@ -1,16 +1,18 @@
+
 # Mirza's Portfolio Website
 
-This website portfolio is dedicated to showcase my skills and projects. Will feature the following:
+This is a personal portfolio website built to showcase my skills, projects, and other things I want to share.
 
-- About myself (no, I'm not gonna overshare... hopefully)
-- Suite of technical skills equipped
-- Ongoing projects
-- What I'm learning
-- Future plans
-- Business ideas?
+## Tech Stack
+
+- **React.js**: Frontend framework (HTML, JSX, CSS)
+- **React Bootstrap**: UI components for rapid development
+- **SCSS**: CSS preprocessor for enhanced styling
+- **React Router DOM**: Client-side routing
 
 ## Credits
-- react.js (HTML, JSX, CSS) web framework
-- react-bootstrap, not reinventing the wheel
-- scss, a css preprocessors & extensions
-- react-router-dom router library
+
+- React.js
+- React Bootstrap
+- SCSS
+- React Router DOM
